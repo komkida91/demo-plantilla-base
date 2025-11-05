@@ -1,8 +1,44 @@
 <!DOCTYPE html>
+<!--
+    ============================================================================
+    PROPRIEDAD INTELECTUAL - GKACHELE
+    ============================================================================
+    
+    Copyright (c) 2025 GKACHELE
+    Desarrollado desde: 3 de noviembre de 2025
+    
+    Este código y su estructura son propiedad exclusiva de GKACHELE.
+    Todos los derechos reservados.
+    
+    PROPIEDAD:
+    - Código HTML/CSS/JavaScript: Propiedad de GKACHELE
+    - Sistema de automatización: Propiedad de GKACHELE
+    - Estructura y diseño: Propiedad de GKACHELE
+    - Lógica de negocio: Propiedad de GKACHELE
+    
+    PROHIBICIONES:
+    - Prohibida la copia, reproducción o distribución sin autorización
+    - Prohibida la modificación no autorizada
+    - Prohibido el uso comercial sin licencia
+    
+    CONTACTO: gkachele.duckdns.org
+    
+    ============================================================================
+-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://api.pagecounter.io; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    
+    <!-- Cache Control -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -12,6 +48,8 @@
     <meta name="description" content="Sitio web profesional Demo-plantilla-base. Próximamente estará disponible.">
     <meta name="keywords" content="sitio web, página web, desarrollo web, Demo-plantilla-base">
     <meta name="author" content="GKACHELE">
+    <meta name="generator" content="GKACHELE Sistema Automatizado - Copyright 2025">
+    <meta name="copyright" content="Copyright (c) 2025 GKACHELE - Todos los derechos reservados">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
@@ -82,6 +120,22 @@
             .hero h1 { font-size: 1.5rem; }
             .hero-flag { font-size: 1.5rem; }
             .get-on-board h2, .propuestas h2, .contact h2 { font-size: 1.5rem; }
+        }
+
+        /* Marca de agua de protección */
+        body::after {
+            content: '© GKACHELE 2025';
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            font-size: 0.7rem;
+            color: rgba(0, 0, 0, 0.03);
+            font-weight: bold;
+            z-index: -1;
+            pointer-events: none;
+            user-select: none;
+            transform: rotate(-45deg);
+            font-family: 'Arial', sans-serif;
         }
     </style>
 </head>
@@ -188,7 +242,13 @@
     </div>
 
     <div class="footer">
-        <p>&copy; 2024 Demo-plantilla-base</p>
+        <p>&copy; 2025 Demo-plantilla-base. Todos los derechos reservados.</p>
+        <p style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.7); margin-top: 0.5rem;">
+            Desarrollado desde noviembre 2025 por <strong style="color: #ffffff;">GKACHELE</strong>
+        </p>
+        <p style="font-size: 0.7rem; color: rgba(255, 255, 255, 0.5); margin-top: 0.25rem; opacity: 0.7;">
+            Código propiedad de GKACHELE © 2025 - Prohibida su reproducción sin autorización
+        </p>
     </div>
 
     <a href="https://wa.me/5491112345678" class="whatsapp-float" target="_blank">
